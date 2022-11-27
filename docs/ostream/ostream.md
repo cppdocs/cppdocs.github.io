@@ -1,0 +1,2 @@
+# ostream
+Output stream. 
