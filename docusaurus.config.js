@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'cppdocumentation.org',
-  tagline: 'C++ Docs are bad, lets fix them',
+  tagline: 'C++ Docs are broken, lets fix them',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -38,13 +38,13 @@ const config = {
           includeCurrentVersion: false,
           versions: {
             'cpp-14': {
-              label: 'cpp-14',
+              label: 'c++14',
               path: 'cpp-14',
               badge: false,
               banner: 'none',
             },
             'cpp-17': {
-              label: 'cpp-17',
+              label: 'c++17',
               path: 'cpp-17',
               badge: false,
               banner: 'none',
@@ -83,7 +83,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Docs',
+            label: 'Standard Library',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
