@@ -3,10 +3,10 @@ Applies a given function to each value in a list.
 
 ---
 ```cpp
-template <class InputIterator, class Function> Function 
-    for_each(InputIterator first, 
-             InputIterator last, 
-             Function f);
+template <class InputIterator, class Function> 
+    Function for_each(InputIterator first, 
+                      InputIterator last, 
+                      Function f);
 ```
 - first is the first element of a list
 - last is the last element of a list
