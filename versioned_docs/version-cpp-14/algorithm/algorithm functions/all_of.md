@@ -4,10 +4,12 @@ all_of returns true if all elements in a range return true
 
 ---
 ```cpp
+namespace std {
 template <class InputIterator, class Predicate> 
     bool all_of(InputIterator first, 
                 InputIterator last, 
                 Predicate pred);
+}
 ```
 - first is the first element of a range
 - last is the last element of a range
@@ -20,7 +22,7 @@ template <class InputIterator, class Predicate>
 #include <algorithm>
 #include <iostream>
 
-int main(){
+int main() {
   int x[] = {3, 1, 3, 5, 5, 9};
 
   if (std::all_of(&x[0], &x[5], [](int n){ return n%2 == 1; })){

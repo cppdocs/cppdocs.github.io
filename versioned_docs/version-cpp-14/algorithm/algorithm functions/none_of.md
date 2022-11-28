@@ -4,10 +4,12 @@ none_of returns true if not a single element in a range returns true
 
 ---
 ```cpp
+namespace std {
 template <class InputIterator, class Predicate> 
     bool any_of(InputIterator first, 
                 InputIterator last, 
                 Predicate pred);
+}
 ```
 - first is the first element of a range
 - last is the last element of a range
@@ -20,7 +22,7 @@ template <class InputIterator, class Predicate>
 #include <algorithm>
 #include <iostream>
 
-int main(){
+int main() {
   int x[] = {3, 2, 10, 8, 2, 4};
 
   if (std::none_of(&x[0], &x[5], [](int n){ return n%2 == 1; })){
