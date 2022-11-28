@@ -1,19 +1,20 @@
 # for_each()
 Applies a given function to each value in a list.
 
-```
-  template <class InputIterator, class Function> Function 
-      for_each(InputIterator first, 
-               InputIterator last, 
-               Function f);
+---
+```cpp
+template <class InputIterator, class Function> Function 
+    for_each(InputIterator first, 
+             InputIterator last, 
+             Function f);
 ```
 - first is the first element of a list
 - last is the last element of a list
 - f is a function pointer, or a lambda
 
-
+---
 ## Example
-```
+```cpp
 #include <algorithm>
 
 int main(){

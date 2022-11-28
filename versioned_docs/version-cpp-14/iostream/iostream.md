@@ -4,7 +4,7 @@ Even though iostream is one of the most widely used headers, none of it's classe
 
 ---
 
-```
+```cpp
 namespace std {
   extern ostream cout;
   extern istream cin;
@@ -22,7 +22,7 @@ namespace std {
 ## cout
 cout is used in order to print to stdout.
 ### Example
-```
+```cpp
   #include <iostream>
   int main(){
     std::cout << "This will be printed to stdout\n";
