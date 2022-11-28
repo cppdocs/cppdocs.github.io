@@ -85,7 +85,11 @@ const config = {
             position: 'left',
             label: 'Standard Library',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            to: '/blog', 
+            label: 'Blog', 
+            position: 'left'
+          },
           {
             type: 'docsVersionDropdown',
             position: 'right',
