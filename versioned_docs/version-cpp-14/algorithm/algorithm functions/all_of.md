@@ -31,7 +31,7 @@ int main(){
 }
 ```
 output: all of x is odd
-because none of the elements in x is even, the all_of function returns true
+because none of the elements in x are even, the all_of function returns true
 
 
 ---
