@@ -25,7 +25,7 @@ template <class InputIterator, class Predicate>
 int main() {
   int x[] = {3, 2, 10, 8, 2, 4};
 
-  if (std::any_of(&x[0], &x[5], [](int n){ return n%2 == 1; })){
+  if (std::any_of(&x[0], &x[5], [](int n){ return n%2 == 1; })) {
     std::cout << "at least one element is odd" << std::endl;
     return 0;
   }
