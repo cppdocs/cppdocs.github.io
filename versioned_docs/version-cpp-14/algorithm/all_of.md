@@ -1,7 +1,6 @@
 # all_of()
 all_of returns true if all elements in a range return true
 
----
 ```cpp
 namespace std {
 template <class InputIterator, class Predicate> 
@@ -14,7 +13,8 @@ template <class InputIterator, class Predicate>
 - last is the last element of a range
 - pred a function pointer or lambda that returns a boolean
 
----
+## Notes
+- When using pointers like in the example below, the last value is not included. A range of 0 to 2 means 0, 1.
 ## Example
 
 ```cpp
@@ -36,5 +36,5 @@ because none of the elements in x are even, the all_of function returns true
 
 
 ---
-## See also
+# See also
 

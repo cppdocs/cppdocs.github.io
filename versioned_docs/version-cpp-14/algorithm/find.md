@@ -2,7 +2,6 @@
 find attempts to find a given value in a given list. 
 If the value is found, it returns value, if the value is not found, it returns the last value in the list.
 
----
 ```cpp
 namespace std {
 template <class InputIterator, class T>
@@ -15,7 +14,8 @@ template <class InputIterator, class T>
 - last is the end of a range
 - value is a value to find
 
----
+## Notes
+- When using pointers like in the example below, the last value is not included. A range of 0 to 2 means 0, 1.
 ## Example
 ```cpp
 #include <iostream>
@@ -33,5 +33,8 @@ Output: 2
 In this example we search for the value 2 in the array a.
 Because the value 9 is not in the array, the last value in a is returned, in this case 2.
 If value were to be 5, the program would output 5, because 5 is in the array.
+
+---
+# See also
 
 
