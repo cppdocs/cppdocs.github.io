@@ -1,5 +1,4 @@
 # any_of()
-
 any_of returns true if one element in a range returns true
 
 ---

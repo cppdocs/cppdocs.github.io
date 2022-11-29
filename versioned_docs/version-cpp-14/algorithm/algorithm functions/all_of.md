@@ -1,5 +1,4 @@
 # all_of()
-
 all_of returns true if all elements in a range return true
 
 ---

@@ -1,5 +1,4 @@
 # none_of()
-
 none_of returns true if not a single element in a range returns true
 
 ---
