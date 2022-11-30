@@ -2,7 +2,35 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 
-const FeatureList = [];
+const FeatureList = [{
+  title: 'Unlicense',
+  Svg: require('@site/static/img/unlicense.svg').default,
+  description: (
+    <>
+      C++Docs was meant to be free from all copyright. Cut, copy, paste to your hearts content.
+    </>
+  ),
+},
+{
+  title: 'Powered by Markdown',
+  Svg: require('@site/static/img/markdown.svg').default,
+  description: (
+    <>
+      Extend or customize your website layout by reusing React. Docusaurus can
+      be extended while reusing the same header and footer.
+    </>
+  ),
+},
+{
+  title: 'Built with Docusaurus',
+  Svg: require('@site/static/img/logo.svg').default,
+  description: (
+    <>
+      C++Docs is built on markdown, and served to you with Docusaurus.
+    </>
+  ),
+},
+];
 
 function Feature({Svg, title, description}) {
   return (
