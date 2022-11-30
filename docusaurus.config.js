@@ -9,7 +9,7 @@ const config = {
   title: 'cppdocumentation.org',
   tagline: 'C++ Docs are broken, lets fix them',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/cppDocs/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
