@@ -76,7 +76,7 @@ const config = {
         title: 'Cpp Docs',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/cppLogo.svg',
         },
         items: [
           {
