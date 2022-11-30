@@ -32,6 +32,8 @@ Again, if in line 6, at the std::fill function call, we had written &a[0], &a[5]
 ---
 
 # fill_n()
+Like fill(), fill_n() fill a range with a given number, the difference is in how you give the range.
+fill_n() takes a start iterator, and a length.
 
 ```cpp
 namespace std {
@@ -39,10 +41,6 @@ template <class OutputIterator, class Size, class T>
     OutputIterator fill_n(OutputIterator first, Size n, const T& value);
 }
 ```
-Like fill(), fill_n() fill a range with a given number, the difference is in how you give the range.
-fill_n() takes a start iterator, and a length.
-
-## Notes
 
 ## Example
 ```cpp

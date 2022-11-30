@@ -15,8 +15,8 @@ template <class InputIterator, class Predicate>
 
 ## Notes
 - When using pointers like in the example below, the last value is not included. A range of 0 to 2 means 0, 1.
-## Example
 
+## Example
 ```cpp
 #include <algorithm>
 #include <iostream>
@@ -37,3 +37,5 @@ because none of the elements in x is even, the all_of function returns true
 
 ---
 # See also
+[all_of()](all_of.md)  
+[none_of()](none_of.md)

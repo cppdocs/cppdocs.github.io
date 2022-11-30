@@ -37,4 +37,5 @@ because none of the elements in x are even, the all_of function returns true
 
 ---
 # See also
-
+[any_of()](any_of.md)  
+[none_of()](none_of.md)
