@@ -7,7 +7,7 @@ const FeatureList = [{
   Svg: require('@site/static/img/unlicense.svg').default,
   description: (
     <>
-      C++Docs was meant to be free from all copyright. Cut, copy, paste to your hearts content.
+      C++Docs was meant to be free from all copyright. Cut, copy, and paste to your heart's content.
     </>
   ),
 },
