@@ -4,8 +4,11 @@ fill() takes a start and an end iterator.
 
 ```cpp
 namespace std {
+// functions
 template <class ForwardIterator, class T>
-    void fill(ForwardIterator first, ForwardIterator last, const T& value);
+    void fill(ForwardIterator first, 
+              ForwardIterator last, 
+              const T& value);
 }
 ```
 - first is the first element of a range
@@ -25,6 +28,7 @@ int main() {
   std::fill(&a[0], &a[6], 0);
 }
 ```
+
 In this example the array a will end up being [0, 0, 0, 0, 0, 0].
 Again, if in line 6, at the std::fill function call, we had written &a[0], &a[5] the last element would not be filled, a would be:
 [0, 0, 0, 0, 0, 2].

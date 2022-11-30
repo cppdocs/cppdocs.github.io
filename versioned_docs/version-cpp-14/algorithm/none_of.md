@@ -4,9 +4,9 @@ none_of returns true if not a single element in a range returns true
 ```cpp
 namespace std {
 template <class InputIterator, class Predicate> 
-    bool any_of(InputIterator first, 
-                InputIterator last, 
-                Predicate pred);
+    bool none_of(InputIterator first, 
+                 InputIterator last, 
+                 Predicate pred);
 }
 ```
 - first is the first element of a range

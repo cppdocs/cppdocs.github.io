@@ -3,7 +3,7 @@ fstream handles file input and output.
 
 ```cpp
 namespace std {
-template <class charT, class traits=char_traits<charT> >
+template <class charT, class traits=char_traits<charT>>
   class basic_fstream : public basic_iostream <charT,traits>
 {
 public:
