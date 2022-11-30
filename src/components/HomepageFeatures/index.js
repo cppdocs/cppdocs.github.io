@@ -16,8 +16,8 @@ const FeatureList = [{
   Svg: require('@site/static/img/markdown.svg').default,
   description: (
     <>
-      Extend or customize your website layout by reusing React. Docusaurus can
-      be extended while reusing the same header and footer.
+	  Markdown is a future proof open standard used by GitHub, Obsidian, and Reddit.<br>
+	  Editing and contributing is a piece of cake, and you can uses the source code where you want, not just in Docusaurus.
     </>
   ),
 },
