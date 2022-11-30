@@ -17,7 +17,7 @@ const FeatureList = [{
   description: (
     <>
 	  Markdown is a future proof open standard used by GitHub, Obsidian, and Reddit.
-	  Editing and contributing is a piece of cake, and you can uses the source code where you want, not just in Docusaurus.
+	  Editing and contributing is a piece of cake.
     </>
   ),
 },
