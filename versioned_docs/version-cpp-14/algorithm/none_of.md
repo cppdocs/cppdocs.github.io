@@ -1,5 +1,5 @@
 # none_of()
-none_of returns true if not a single element in a range returns true
+none_of() returns true if not a single element in a range returns true
 
 ```cpp
 namespace std {

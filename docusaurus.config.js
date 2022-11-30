@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'cppdocumentation.org',
   tagline: 'C++ Docs are broken, lets fix them',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://cppdocs.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -50,10 +50,9 @@ const config = {
               banner: 'none',
             }
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          //editUrl:
-            //'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+
+          editUrl:
+            'https://github.com/cppdocs/cppdocs.github.io/tree/main/',
         },
         blog: {
           showReadingTime: false,
@@ -97,7 +96,7 @@ const config = {
             dropdownActiveClassDisabled: true,
           },
           {
-            href: 'https://github.com/oneElectron/oneElectron.github.io',
+            href: 'https://github.com/cppdocs/cppdocs.github.io',
             label: 'GitHub',
             position: 'right',
           },

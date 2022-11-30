@@ -1,6 +1,6 @@
 # find()
-find attempts to find a given value in a given list. 
-If the value is found, it returns value, if the value is not found, it returns the last value in the list.
+find() attempts to find a given value in a given list. 
+If the value is found, it an iterator to value, if the value is not found, it returns an iterator to the last value in the list.
 
 ```cpp
 namespace std {

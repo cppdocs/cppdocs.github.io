@@ -4,7 +4,6 @@ fill() takes a start and an end iterator.
 
 ```cpp
 namespace std {
-// functions
 template <class ForwardIterator, class T>
     void fill(ForwardIterator first, 
               ForwardIterator last, 
