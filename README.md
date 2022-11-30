@@ -16,6 +16,7 @@ The standard library docs are located in versioned_docs, where the docs are spli
 - No copy pasting. I know it sounds obvious, but it needs to be mentioned. The one exception are the synopsis.
 
 ## Style
-The sidebar is organized into headers, these headers represent folders in /versioned_docs/version-cpp-[version number]/
+The sidebar is organized into headers, these headers represent folders in  
+/versioned_docs/version-cpp-[version number]/
 
 
