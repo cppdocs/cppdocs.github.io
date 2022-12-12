@@ -1,3 +1,6 @@
+---
+title: <fstream>
+---
 # fstream
 
 ## Classes

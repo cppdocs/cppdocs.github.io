@@ -1,3 +1,6 @@
+---
+title: <algorithm>
+---
 # algorithm
 
 Algorithm includes functions for manipulating data.
