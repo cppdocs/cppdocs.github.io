@@ -1,4 +1,4 @@
-# fstream
+# basic_fstream
 fstream handles file input and output.
 
 ```cpp
@@ -29,3 +29,7 @@ public:
 };
 }
 ```
+
+This defines the std::basic_fstream class, which is used by std::fstream like so:
+
+
