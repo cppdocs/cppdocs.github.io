@@ -181,7 +181,7 @@ If value were to be 5, the program would output 5, because 5 is in the array.
 
 ---
 ## find_if()
-Exactly the same as [find()](find.md), but, instead of finding a certain value, find a value by passing it to a boolean function.
+Exactly the same as [find()](algorithm_functions#find), but, instead of finding a certain value, find a value by passing it to a boolean function.
 
 ```cpp
 namespace std {
