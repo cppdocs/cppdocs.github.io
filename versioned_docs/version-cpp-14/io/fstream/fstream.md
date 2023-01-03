@@ -1,7 +1,7 @@
 ---
 title: <fstream>
 ---
-# File IO
+# <fstream\>
 ```cpp
 namespace std {
 class basic_fstream;
@@ -21,8 +21,9 @@ int main() {
   outputFile << "Hello World!\n";
 }
 ```
-
-Note that fstream cannot create a file if it doesn't exist.  
+:::caution
+fstream cannot create a file if it doesn't exist. Be sure that the file exists when you open it, or check if a file is open ([is_open()](basic_fstream#is_open)).
+:::
 If you would like to understand more the first step is to understand that std::fstream is a type alias for basic_fstream like so:
 
 ```cpp
