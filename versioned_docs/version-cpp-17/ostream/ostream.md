@@ -1,2 +1,0 @@
-# ostream
-Output stream. 

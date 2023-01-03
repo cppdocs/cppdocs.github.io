@@ -7,5 +7,6 @@ A to-do list split up by task type
 
 ## Documenting
 Currently working on C++14 for:
-- fstream
 - algorithm
+- chrono
+- thread

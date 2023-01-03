@@ -33,7 +33,7 @@ public:
 As you can std::basic_fstream (which is basically std::fstream) defines basic file functions like close, open and is_open. 
 However it does not define any file io.
 
-
+---
 ## Constructor
 ```cpp
 basic_fstream();
@@ -43,8 +43,9 @@ basic_fstream(basic_fstream&& rhs);
 basic_fstream& operator=(basic_fstream&& rhs);
 ```
 Create a basic_fstream object. 
-Open a file named s, with mode mode (defaults to r/w).
+Open a file named s, with mode mode (defaults to read/write).
 
+---
 ## open()
 ```cpp
 void open(const char* s, ios_base::openmode mode = ios_base::in|ios_base::out);
@@ -52,6 +53,7 @@ void open(const string& s, ios_base::openmode mode = ios_base::in|ios_base::out)
 ```
 Open a file named s, with mode mode (defaults to r/w).
 
+---
 ## is_open()
 ```cpp
 bool is_open() const;
@@ -71,6 +73,7 @@ int main() {
 }
 ```
 
+---
 ## swap()
 ```cpp
 void swap(basic_fstream& rhs);
@@ -89,12 +92,14 @@ int main() {
 }
 ```
 
+---
 ## rdbuf()
 ```cpp
 basic_filebuf<char_type, traits_type>* rdbuf() const;
 ```
 Returns a pointer to a basic_filebuf.
 
+---
 ## close()
 ```cpp
 void close();
