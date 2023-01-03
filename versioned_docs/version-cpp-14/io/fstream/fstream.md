@@ -1,9 +1,16 @@
 ---
-title: File IO
+title: <fstream>
 ---
 # File IO
+```cpp
+namespace std {
+class basic_fstream;
+}
+```
+
+
 Writing to a file in C++ is hard if you don't know what you are doing.
-In it's most basic form you create an fstream object then you push to that object like you would with std::cout, like so:
+In it's most basic form you create an fstream object, then push to that object like you would with std::cout, like so:
 
 ```cpp
 #include <fstream>
