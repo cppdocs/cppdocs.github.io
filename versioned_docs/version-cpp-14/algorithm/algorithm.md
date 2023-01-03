@@ -8,7 +8,7 @@ For example sort, which sorts things using an algorithm (for more see algorithm#
 
 ## Patterns
 - _n can usually be append to a function name if the function operates on a range. 
-For example, [fill()](fill.md) and [fill_n()](fill.md), [fill()](fill.md) takes a start and an end, whereas [fill_n](fill.md) take a start and a size.
+For example, fill() and fill_n(), fill() takes a start and an end, whereas fill_n take a start and a size.
 
 ---
 ```cpp
