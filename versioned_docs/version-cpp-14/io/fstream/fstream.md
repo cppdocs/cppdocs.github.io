@@ -22,7 +22,7 @@ int main() {
 }
 ```
 :::caution
-fstream cannot create a file if it doesn't exist. Be sure that the file exists when you open it, or check if a file is open ([is_open()](basic_fstream#is_open)).
+fstream cannot create a file if it doesn't exist. Be sure that the file exists when you open it, or check if a file is open ([is_open()](class_basic_fstream#is_open)).
 :::
 
 If you would like to understand more the first step is to understand that std::fstream is a type alias for basic_fstream like so:
@@ -33,4 +33,4 @@ typedef basic_fstream<char> fstream;
 }
 ```
 
-Now look at [basic_fstream](basic_fstream.md).
+Now look at [basic_fstream](class_basic_fstream.md).
